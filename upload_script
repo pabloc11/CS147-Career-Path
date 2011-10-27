@@ -1,0 +1,6 @@
+#!/bin/bash
+cd html_skeleton
+chmod -R 755 *
+rsync -r * brettw1@cs147.org:~/brettw1.cs147.org
+cd ..
+echo "Uploaded succesfully"
